@@ -1,6 +1,6 @@
 package com.example.coinsapp.presentation.ui.modelsui
 
-import com.example.coinsapp.domain.model.CoinModel
+import com.example.domain.models.CoinModel
 
 data class CoinModelUI(
     val id: String,

@@ -49,6 +49,9 @@ android {
 
 dependencies {
 
+    implementation(project(":domain"))
+    implementation(project(":data"))
+
     //Core
     implementation("androidx.core:core-ktx:1.8.0")
 
@@ -80,15 +83,6 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
-    //retrofit
-    val retrofit_version = "2.9.0"
-    implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
-    implementation("com.squareup.retrofit2:converter-gson:$retrofit_version")
-
-    //okhttp
-    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.2"))
-    implementation("com.squareup.okhttp3:okhttp")
-    implementation("com.squareup.okhttp3:logging-interceptor")
 
     // Hilt
     implementation("com.google.dagger:hilt-android:2.41")

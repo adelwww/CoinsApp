@@ -3,8 +3,8 @@ package com.example.coinsapp.presentation.ui.base
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.coinsapp.domain.either.Either
 import com.example.coinsapp.presentation.ui.state.UIState
+import com.example.domain.either.Either
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
