@@ -2,7 +2,6 @@ package com.example.coinsapp.presentation.ui.fragments
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.data.repository.CoinRepositoryImpl
 import com.example.coinsapp.presentation.ui.base.BaseViewModel
 import com.example.coinsapp.presentation.ui.modelsui.CoinModelUI
 import com.example.coinsapp.presentation.ui.modelsui.toUI

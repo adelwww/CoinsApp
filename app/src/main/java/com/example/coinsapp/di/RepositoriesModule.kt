@@ -1,6 +1,6 @@
 package com.example.coinsapp.di
 
-import com.example.data.repository.CoinRepositoryImpl
+import com.example.data.repositories.CoinRepositoryImpl
 import com.example.domain.repositories.CoinRepository
 import dagger.Binds
 import dagger.Module
