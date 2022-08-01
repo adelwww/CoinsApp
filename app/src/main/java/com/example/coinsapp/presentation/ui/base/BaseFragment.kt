@@ -1,4 +1,4 @@
-package com.example.coinsapp.base
+package com.example.coinsapp.presentation.ui.base
 
 import android.os.Bundle
 import android.view.View

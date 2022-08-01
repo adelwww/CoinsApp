@@ -1,4 +1,4 @@
-package com.example.coinsapp.ui.activity
+package com.example.coinsapp.presentation.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

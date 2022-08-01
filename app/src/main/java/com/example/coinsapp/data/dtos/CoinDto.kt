@@ -1,8 +1,9 @@
-package com.example.coinsapp.data.models
+package com.example.coinsapp.data.dtos
 
+import com.example.coinsapp.domain.model.CoinModel
 import com.google.gson.annotations.SerializedName
 
-data class CoinModel (
+data class CoinDto (
 
     @SerializedName("id")
     val id: String,
@@ -22,3 +23,5 @@ data class CoinModel (
     @SerializedName("is_active")
     val isActive: Boolean
 )
+
+fun CoinDto.toDomain() = CoinModel(id,name,symbol,rank,isNew,isActive)
