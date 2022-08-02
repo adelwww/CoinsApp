@@ -3,10 +3,10 @@ package com.example.coinsapp.presentation.ui.fragments
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.coinsapp.presentation.ui.base.BaseViewModel
-import com.example.coinsapp.presentation.ui.modelsui.CoinModelUI
-import com.example.coinsapp.presentation.ui.modelsui.toUI
+import com.example.coinsapp.presentation.ui.models.CoinModelUI
+import com.example.coinsapp.presentation.ui.models.toUI
 import com.example.coinsapp.presentation.ui.state.UIState
-import com.example.domain.usecase.FetchCoinUseCase
+import com.example.domain.usecases.FetchCoinUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

@@ -1,6 +1,6 @@
 package com.example.data.repositories
 
-import com.example.data.dtos.toDomain
+import com.example.data.remote.dtos.toDomain
 import com.example.data.remote.apiservices.CoinApiService
 import com.example.data.repositories.base.BaseRepository
 import com.example.domain.either.Either

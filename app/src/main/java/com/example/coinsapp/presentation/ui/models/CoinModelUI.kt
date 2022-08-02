@@ -1,4 +1,4 @@
-package com.example.coinsapp.presentation.ui.modelsui
+package com.example.coinsapp.presentation.ui.models
 
 import com.example.domain.models.CoinModel
 

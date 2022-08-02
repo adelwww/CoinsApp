@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.coinsapp.databinding.ItemCoinsBinding
-import com.example.coinsapp.presentation.ui.modelsui.CoinModelUI
+import com.example.coinsapp.presentation.ui.models.CoinModelUI
 
 class CoinAdapter : ListAdapter<CoinModelUI, CoinAdapter.CoinViewHolder>(
     CoinDiffCallBack
